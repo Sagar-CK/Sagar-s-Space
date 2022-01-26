@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sagar Chethan Kumar</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+        />
+        <link rel="stylesheet" href="./output.css" />
+        <link rel="stylesheet" href="./custom.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+            integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
+        />
+        <style>
+            .writeups p {
+                text-align: justify;
+            }
+            @keyframes cursor {
+                0% {
+                    opacity: 1;
+                }
+                49% {
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0;
+                }
+                99% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            .cursor {
+                display: inline-block;
+                width: 2px;
+                height: 6vh;
+                transform: translateY(5px);
+                margin-left: 3px;
+                background: #000;
+                animation: cursor 0.3s infinite;
+                font-family: light;
+            }
+            .cursorActive {
+                animation: none;
+            }
+
+            .owl-carousel img {
+                border-radius: 12px 12px 0 0;
+            }
+            .school-btn {
+                cursor: pointer;
+            }
+            html,
+            body {
+                scroll-behavior: smooth;
+            }
+            @media (max-width: 500px) {
+                .cursor {
+                    height: 4vh;
+                }
+            }
+            @media (max-width: 800px) {
+                .hero-content {
+                    height: 1000px;
+                }
+                .hero-content-hold {
+                    height: auto;
+                }
+                .hero-content-hold p {
+                    margin: 4vh 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main class="w-screen" style="overflow-x: hidden">
+            <nav
+                class="
+                    w-full
+                    flex
+                    items-center
+                    cont
+                    py-7
+                    z-50
+                    fixed
+                    top-0
+                    left-0
+                    bg-indigo-500
+                    lg:py-5
+                "
+            >
+                <div class="w-1/2">
+                    <img src="sck.png" alt="logo" class="w-1/3 lg:w-2/3" />
+                </div>
+                <div class="w-1/2 flex justify-end items-center">
+                    <a
+                        href="#"
+                        class="
+                            text-white text-xl
+                            transition-all
+                            duration-150
+                            font-bold
+                            hover:underline
+                            ml-32
+                            lg:ml-16 lg:text-lg
+                            sm:text-xs sm:ml-6
+                        "
+                    >
+                        Home
+                    </a>
+                    <a
+                        href="#education"
+                        class="
+                            text-white text-xl
+                            transition-all
+                            duration-150
+                            font-bold
+                            hover:underline
+                            ml-32
+                            lg:ml-16 lg:text-lg
+                            sm:text-xs sm:ml-6
+                        "
+                    >
+                        Education
+                    </a>
+                    <a
+                        href="#skills"
+                        class="
+                            text-white text-xl
+                            transition-all
+                            duration-150
+                            font-bold
+                            hover:underline
+                            ml-32
+                            lg:ml-16 lg:text-lg
+                            sm:text-xs sm:ml-6
+                        "
+                    >
+                        Skills
+                    </a>
+                </div>
+            </nav>
+
+            <div
+                class="
+                    hero-hold
+                    w-screen
+                    cont
+                    flex
+                    h-screen
+                    lg:flex-col lg:h-auto
+                "
+            >
+                <div
+                    class="
+                        flex flex-col
+                        w-1/2
+                        pt-60
+                        lg:w-full lg:justify-center lg:items-center lg:pt-32
+                    "
+                >
+                    <img
+                        src="sckpfp.jpg"
+                        class="w-7/12 h-7/12 mb-5 rounded-xl lg:h-5/6"
+                        alt=""
+                    />
+                    <div class="flex justify-center w-7/12 pt-3">
+                        <a
+                            href="https://www.instagram.com/sagar0.4/"
+                            class="
+                                text-5xl
+                                mx-4
+                                text-gray-600
+                                hover:text-gray-800
+                                sm:text-3xl sm:mx-2
+                            "
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a
+                            href="https://open.spotify.com/user/sagar.chethankumar?si=b85df6ae58ad4e05"
+                            class="
+                                text-5xl
+                                mx-4
+                                text-gray-600
+                                hover:text-gray-800
+                                sm:text-3xl sm:mx-2
+                            "
+                            ><i class="fab fa-spotify"></i
+                        ></a>
+                        <a
+                            href="https://www.linkedin.com/in/sagar-chethan-kumar/"
+                            class="
+                                text-5xl
+                                mx-4
+                                text-gray-600
+                                hover:text-gray-800
+                                sm:text-3xl sm:mx-2
+                            "
+                            ><i class="fab fa-linkedin"></i
+                        ></a>
+                        <a
+                            href="https://github.com/Sagar-CK"
+                            class="
+                                text-5xl
+                                mx-4
+                                text-gray-600
+                                hover:text-gray-800
+                                sm:text-3xl sm:mx-2
+                            "
+                            ><i class="fab fa-github"></i
+                        ></a>
+                    </div>
+                </div>
+
+                <div
+                    class="
+                        hero-content-hold
+                        flex flex-col
+                        w-1/2
+                        h-auto
+                        justify-start
+                        pt-60
+                        2xl:h-3/4
+                        lg:w-full lg:pt-0 lg:items-center lg:text-center
+                        sm:h-64
+                    "
+                >
+                    <h1
+                        class="
+                            font-semibold
+                            text-6xl
+                            mt-10
+                            w-3/4
+                            2xl:text-4xl
+                            sm:text-2xl
+                        "
+                    >
+                        Hi! I'm <span id="title"></span>
+                        <div id="cursor" class="cursor"></div>
+                    </h1>
+                    <p
+                        class="
+                            text-2xl
+                            font-medium
+                            pr-64
+                            my-16
+                            leading-relaxed
+                            2xl:text-xl 2xl:pr-52
+                            lg:pr-20 lg:pl-20
+                            sm:text-sm sm:pr-4 sm:pl-4
+                        "
+                    >
+                        Hey I am Sagar! I am guy who frankly is obssessed with puzzles, feel free to reach out if this is you too :)
+                    </p>
+                    <div
+                        class="
+                            flex
+                            w-3/6
+                            justify-between
+                            2xl:w-4/6
+                            sm:w-5/6 sm:justify-center
+                        "
+                    >
+                        <a
+                            href="./prakhars_Resume.pdf"
+                            target="_blank"
+                            class="
+                                px-16
+                                bg-indigo-500
+                                py-4
+                                text-white text-xl
+                                rounded-md
+                                mr-10
+                                hover:shadow-lg
+                                sm:px-10 sm:text-sm
+                            "
+                            >Résume</a
+                        >
+                        <a
+                            href="https://www.flickr.com/photos/194166758@N06/?"
+                            class="
+                                px-16
+                                bg-indigo-500
+                                py-4
+                                text-white text-xl
+                                rounded-md
+                                hover:shadow-lg
+                                sm:px-10 sm:text-sm
+                            "
+                            target="_blank"
+                            >Youtube</a
+                        >
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="
+                    cont
+                    education
+                    w-screen
+                    flex flex-col
+                    justify-center
+                    relative
+                "
+                id="education"
+            >
+                <h1
+                    class="
+                        text-indigo-700 text-6xl
+                        mb-24
+                        font-semibold
+                        uppercase
+                        z-10
+                        lg:text-4xl lg:mb-10
+                        sm:text-2xl sm:mb-5
+                    "
+                >
+                    Education
+                </h1>
+
+                <div
+                    class="
+                        school
+                        w-full
+                        flex
+                        rounded-3xl
+                        bg-gray-200
+                        h-96
+                        p-16
+                        z-20
+                        lg:p-6 lg:h-60
+                        sm:p-3 sm:h-36
+                        school-card
+                    "
+                    id="school1"
+                >
+                    <img
+                        src="fis.jpg"
+                        alt="the"
+                        class="rounded-3xl h-full w-3/12 sm:w-5/12"
+                    />
+
+                    <div class="flex flex-col justify-center pl-28 lg:pl-6">
+                        <h1
+                            class="
+                                text-3xl
+                                my-4
+                                lg:text-2xl lg:my-3
+                                sm:text-xs sm:my-2
+                            "
+                        >
+                            Franconian International School 
+                        </h1>
+                        <h1
+                            class="
+                                text-3xl
+                                my-4
+                                lg:text-2xl lg:my-3
+                                sm:text-xs sm:my-2
+                            "
+                        >
+                            2009-2022
+                        </h1>
+                    </div>
+                </div>
+
+                <div
+                    class="
+                        school
+                        w-full
+                        flex
+                        rounded-3xl
+                        bg-gray-200
+                        h-96
+                        p-16
+                        z-20
+                        lg:p-6 lg:h-60
+                        sm:p-3 sm:h-36
+                        school-card
+                        hidden
+                    "
+                    id="school2"
+                >
+                    <img
+                        src="his.jpg"
+                        alt="the"
+                        class="rounded-3xl h-full w-3/12 sm:w-5/12"
+                    />
+
+                    <div class="flex flex-col justify-center pl-28 lg:pl-6">
+                        <h1
+                            class="
+                                text-3xl
+                                my-4
+                                lg:text-2xl lg:my-3
+                                sm:text-xs sm:my-2
+                            "
+                        >
+                            Heidelberg International School
+                        </h1>
+                        <h1
+                            class="
+                                text-3xl
+                                my-4
+                                lg:text-2xl lg:my-3
+                                sm:text-xs sm:my-2
+                            "
+                        >
+                            2008-2009
+                        </h1>
+                    </div>
+                </div>
+
+                <div
+                    class="
+                        back
+                        absolute
+                        w-4/5
+                        h-4/5
+                        bg-white
+                        rounded-3xl
+                        z-10
+                        left-1/3
+                        p-28
+                        lg:p-10 lg:w-9/12 lg:h-5/6 lg:left-80
+                        sm:p-6 sm:w-full sm:h-5/6 sm:left-44
+                    "
+                    style="box-shadow: 0 0 50px rgba(25, 27, 27, 0.15)"
+                >
+                    <button
+                        class="
+                            school-btn
+                            text-indigo-700 text-2xl
+                            font-semibold
+                            mr-16
+                            sm:text-sm sm:mr-4
+                        "
+                        id="school1"
+                    >
+                        School 1
+                    </button>
+                    <button
+                        class="
+                            school-btn
+                            text-2xl
+                            font-semibold
+                            mr-16
+                            sm:text-sm sm:mr-4
+                        "
+                        id="school2"
+                    >
+                        School 2
+                    </button>
+                </div>
+            </div>
+
+            <section class="bg-indigo-500" id="skills">
+                <h1
+                    class="
+                        text-white text-center
+                        font-semibold
+                        py-20
+                        text-6xl
+                        uppercase
+                        lg:text-5xl lg:py-14
+                        sm:text-3xl sm:py-10
+                    "
+                >
+                    Skills
+                </h1>
+
+                <div
+                    class="owl-carousel owl-theme cont pb-32 sm:pb-10 lg:pb-20"
+                >
+                    <div
+                        class="
+                            w-96
+                            h-96
+                            bg-white
+                            rounded-2xl
+                            mx-16
+                            sm:w-64 sm:h-80 sm:mx-10
+                            lg:w-72 lg:h-80 lg:mx-0
+                        "
+                    >
+                        <img
+                            src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png"
+                            alt=""
+                            class="w-full h-3/4"
+                            style="object-fit: contain"
+                        />
+                        <div class="px-10 h-1/4 flex items-center">
+                            <h2 class="
+                            font-medium text-3xl 
+                            text-center
+                            ">Python</h2>
+                        </div>
+                    </div>
+
+                    <div
+                        class="
+                            w-96
+                            h-96
+                            bg-white
+                            rounded-2xl
+                            mx-16
+                            sm:w-64 sm:h-80 sm:mx-10
+                            lg:w-80 lg:h-80 lg:mx-0
+                        "
+                    >
+                        <img
+                            src="https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem.jpg"
+                            alt=""
+                            class="w-full h-3/4"
+                            style="object-fit: contain"
+                        />
+                        <div class="px-10 h-1/4 flex items-center">
+                            <h2 class="font-medium text-3xl">Java</h2>
+                        </div>
+                    </div>
+
+                    <div
+                        class="
+                            w-96
+                            h-96
+                            bg-white
+                            rounded-2xl
+                            mx-16
+                            sm:w-64 sm:h-80 sm:mx-10
+                            lg:w-80 lg:h-80 lg:mx-0
+                        "
+                    >
+                        <img
+                            src="https://logos-world.net/wp-content/uploads/2020/11/Adobe-Photoshop-Logo.png"
+                            alt=""
+                            class="w-full h-3/4"
+                        />
+                        <div class="px-10 h-1/4 flex items-center">
+                            <h2 class="font-medium text-3xl">Photoshop</h2>
+                        </div>
+                    </div>
+
+                    <div
+                        class="
+                            w-96
+                            h-96
+                            bg-white
+                            rounded-2xl
+                            mx-16
+                            sm:w-64 sm:h-80 sm:mx-10
+                            lg:w-80 lg:h-80 lg:mx-0
+                        "
+                    >
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/1200px-Adobe_Premiere_Pro_CC_icon.svg.png"
+                            alt=""
+                            class="w-full h-3/4"
+                        />
+                        <div class="px-10 h-1/4 flex items-center">
+                            <h2 class="font-medium text-3xl">Premiere Pro</h2>
+                        </div>
+                    </div>
+
+                    <div
+                        class="
+                            w-96
+                            h-96
+                            bg-white
+                            rounded-2xl
+                            mx-16
+                            sm:w-64 sm:h-80 sm:mx-10
+                            lg:w-80 lg:h-80 lg:mx-0
+                        "
+                    >
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+                            alt=""
+                            class="w-full h-3/4"
+                        />
+                        <div class="px-10 h-1/4 flex items-center">
+                            <h2 class="font-medium text-3xl">C++</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="w-screen cont mb-60 sm:mb-20 writeups">
+                <div
+                    class="
+                        w-full
+                        flex
+                        items-center
+                        justify-center
+                        my-36
+                        lg:my-24
+                        sm:flex-col
+                    "
+                >
+                    <img
+                        src="workitlogo.png"
+                        alt=""
+                        class="w-96 h-96 lg:w-64 lg:h-64 rounded-xl shadow-md"
+                    />
+                    <div
+                        class="
+                            content
+                            w-1/2
+                            pl-32
+                            lg:pl-10
+                            sm:pl-0 sm:py-10 sm:w-full
+                        "
+                    >
+                        <h1
+                            class="
+                                text-6xl
+                                font-bold
+                                mb-10
+                                lg:text-4xl lg:mb-6
+                                sm:text-center
+                            "
+                        >
+                            Work It!
+                        </h1>
+                        <p
+                            class="
+                                text-xl
+                                pr-32
+                                leading-relaxed
+                                lg:text-lg lg:pr-0
+                                sm:text-center sm:w-full sm:text-base sm:px-2
+                            "
+                        >
+                            Initally started as a workout curator for my mom, "Work It!"" has transcended to an intelligent workout coaching
+                            application that uses machine learning and ranking algorithims 
+                            to implicity detect a user's ideal workout! "Work It!" will be rolling out comerically soon :)
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="
+                        w-full
+                        flex
+                        items-center
+                        justify-center
+                        my-36
+                        lg:my-24
+                        sm:flex-col
+                    "
+                >
+                    <div
+                        class="
+                            content
+                            w-1/2
+                            pl-32
+                            lg:pl-0
+                            sm:pl-0 sm:py-10 sm:w-full
+                        "
+                    >
+                        <h1
+                            class="
+                                text-6xl
+                                font-bold
+                                mb-10
+                                lg:text-4xl lg:mb-6
+                                sm:text-center
+                            "
+                        >
+                            DigiOnko 
+                        </h1>
+                        <p
+                            class="
+                                text-xl
+                                pr-32
+                                leading-relaxed
+                                lg:text-lg lg:pr-10
+                                sm:text-center sm:w-full sm:text-base sm:px-2
+                            "
+                        >
+                            This is a small group of like minded individuals
+                            that yearns me to better my self in domains ranging
+                            from current affairs to movies. I have been a core
+                            member, here, for 2 years now and I have lead the
+                            core team, numerous times, in the organisation of
+                            our intra and inter school events, with over 300+
+                            participants in each.
+                        </p>
+                    </div>
+                    <img
+                        src="logo-digionko-rgb.png"
+                        alt=""
+                        class="w-96 h-96 lg:w-64 lg:h-64 rounded-xl"
+                    />
+                </div>
+
+                <div
+                    class="
+                        w-full
+                        flex
+                        items-center
+                        justify-center
+                        my-36
+                        lg:my-24
+                        sm:flex-col
+                    "
+                >
+                    <img
+                        src="digtwin.png"
+                        alt=""
+                        class="w-96 h-96 lg:w-64 lg:h-64"
+                    />
+                    <div
+                        class="
+                            content
+                            w-1/2
+                            pl-32
+                            lg:pl-10
+                            sm:pl-0 sm:py-10 sm:w-full
+                        "
+                    >
+                        <h1
+                            class="
+                                text-6xl
+                                font-bold
+                                mb-10
+                                lg:text-4xl lg:mb-6
+                                sm:text-center
+                            "
+                        >
+                            Digital Twin
+                        </h1>
+                        <p
+                            class="
+                                text-xl
+                                pr-36
+                                leading-relaxed
+                                lg:text-lg lg:pr-0
+                                sm:text-center sm:w-full sm:text-base sm:px-2
+                            "
+                        >
+                            During my 3 years in both of the clubs, I believe
+                            that I really have grown as a human; this is a place
+                            where I feel connected with the world. I serve as
+                            the core member and secretary of the 2 clubs
+                            respectively. Here, we have hosted countless
+                            seminars and relief funds in the recent times of
+                            covid to help those who suffered.
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="
+                        w-full
+                        flex
+                        items-center
+                        justify-center
+                        my-36
+                        lg:my-24
+                        sm:flex-col
+                    "
+                >
+                    <div
+                        class="
+                            content
+                            w-1/2
+                            pl-32
+                            lg:pl-0
+                            sm:pl-0 sm:py-10 sm:w-full
+                        "
+                    >
+                        <h1
+                            class="
+                                text-6xl
+                                font-bold
+                                mb-10
+                                lg:text-4xl lg:mb-6
+                                sm:text-center
+                            "
+                        >
+                            Refugee Aid
+                        </h1>
+                        <p
+                            class="
+                                text-xl
+                                pr-36
+                                leading-relaxed
+                                lg:text-lg lg:pr-10
+                                sm:text-center sm:w-full sm:text-base sm:px-2
+                            "
+                        >
+                            I have been a part of this club for 2 years and am
+                            grateful for the fact that I decided to join this
+                            club. This club has helped me better myself as a
+                            public speaker and has provided me with platforms
+                            such as CBSE national debate. I have been serving as
+                            the head of Group discussions, creative writing,
+                            declamation, and recitation within my time in this
+                            club.
+                        </p>
+                    </div>
+                    <img
+                        src="refugeeAid.png"
+                        alt=""
+                        class="w-96 h-96 lg:w-64 lg:h-64"
+                    />
+                </div>
+
+                <div
+                    class="
+                        w-full
+                        flex
+                        items-center
+                        justify-center
+                        my-36
+                        lg:my-24
+                        sm:flex-col
+                    "
+                >
+                    <img
+                        src="codingsociety.png"
+                        alt=""
+                        class="w-96 h-96 lg:w-64 lg:h-64 rounded-xl"
+                    />
+                    <div
+                        class="
+                            content
+                            w-1/2
+                            pl-32
+                            lg:pl-10
+                            sm:pl-0 sm:py-10 sm:w-full
+                        "
+                    >
+                        <h1
+                            class="
+                                text-6xl
+                                font-bold
+                                mb-10
+                                lg:text-4xl lg:mb-6
+                                sm:text-center
+                            "
+                        >
+                            Coding Society
+                        </h1>
+                        <p
+                            class="
+                                text-xl
+                                pr-32
+                                leading-relaxed
+                                lg:text-lg lg:pr-0
+                                sm:text-center sm:w-full sm:text-base sm:px-2
+                            "
+                        >
+                            I was fortunate enough to get accepted at 0
+                            attending fee in the Quantum Cryptography School for
+                            Young Scientists, University of Waterloo, and attend
+                            the same. This 2-week program bombarded me with the
+                            knowledge and experience of a lifetime. Here, I not
+                            only learned lots of new stuff but also met people
+                            with similar interests and made great friends with
+                            them. Proud to be the leader of the newthvaders;)
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="
+                        w-full
+                        flex
+                        items-center
+                        justify-center
+                        my-36
+                        lg:my-24
+                        sm:flex-col
+                    "
+                >
+                    <div
+                        class="
+                            content
+                            w-1/2
+                            pl-32
+                            lg:pl-0
+                            sm:pl-0 sm:py-10 sm:w-full
+                        "
+                    >
+                        <h1
+                            class="
+                                text-6xl
+                                font-bold
+                                mb-10
+                                lg:text-4xl lg:mb-6
+                                sm:text-center
+                            "
+                        >
+                            LENS Multimedia Club
+                        </h1>
+                        <p
+                            class="
+                                text-xl
+                                pr-32
+                                leading-relaxed
+                                lg:text-lg lg:pr-10
+                                sm:text-center sm:w-full sm:text-base sm:px-2
+                            "
+                        >
+                            I have always been an advocate of mental health and
+                            well being and to serve my part for the same, I
+                            joined the team of project inclusion. In the 3
+                            months of being a part of this project, I worked as
+                            the head of research, where I worked for the
+                            institutional research of neurodivergent children. I
+                            was also an integral part of the writing team.
+                        </p>
+                    </div>
+                    <img
+                        src="lens.png"
+                        alt=""
+                        class="w-96 h-96 lg:w-64 lg:h-64 rounded-xl"
+                    />
+                </div>
+
+                <div
+                    class="
+                        w-full
+                        flex
+                        items-center
+                        justify-center
+                        my-36
+                        lg:my-24
+                        sm:flex-col
+                    "
+                >
+                    <img
+                        src="confirmed.png"
+                        alt=""
+                        class="w-96 h-96 lg:w-64 lg:h-64 rounded-xl"
+                    />
+                    <div
+                        class="
+                            content
+                            w-1/2
+                            pl-32
+                            lg:pl-10
+                            sm:pl-0 sm:py-10 sm:w-full
+                        "
+                    >
+                        <h1
+                            class="
+                                text-6xl
+                                font-bold
+                                mb-10
+                                lg:text-4xl lg:mb-6
+                                sm:text-center
+                            "
+                        >
+                            Hype (CONFIRMED)
+                        </h1>
+                        <p
+                            class="
+                                text-xl
+                                pr-36
+                                leading-relaxed
+                                lg:text-lg lg:pr-0
+                                sm:text-center sm:w-full sm:text-base sm:px-2
+                            "
+                        >
+                            I have participated in countless MUNs and bagged
+                            over 15+ prizes over the years of being a part of
+                            the student MUN circuit. I have also had the
+                            opportunity of being the founder of a MUN: Emissary
+                            MUN. All the participation fee that is cumulated is
+                            donated to charity or a government school. Uptil
+                            now, the team has donated over Rs. 1L.
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="
+                        w-full
+                        flex
+                        items-center
+                        justify-center
+                        my-36
+                        lg:my-24
+                        sm:flex-col
+                    "
+                >
+                    <div
+                        class="
+                            content
+                            w-1/2
+                            pl-32
+                            lg:pl-0
+                            sm:pl-0 sm:py-10 sm:w-full
+                        "
+                    >
+                        <h1
+                            class="
+                                text-6xl
+                                font-bold
+                                mb-10
+                                lg:text-4xl lg:mb-6
+                                sm:text-center
+                            "
+                        >
+                            Kannada Koota Franconia
+                        </h1>
+                        <p
+                            class="
+                                text-xl
+                                pr-36
+                                leading-relaxed
+                                lg:text-lg lg:pr-10
+                                sm:text-center sm:w-full sm:text-base sm:px-2
+                            "
+                        >
+                            This is an AI/ML driven startup that solves problems
+                            encountered on platforms such as twitter, and
+                            instagram. I hold the position of the Chief
+                            Information Officer, wherein I set the strategies
+                            and objectives for software development, and select
+                            and implement suitable technology to help streamline
+                            the workflow.
+                        </p>
+                    </div>
+                    <img
+                        src="kkf.jpg"
+                        alt=""
+                        class="w-96 h-96 lg:w-64 lg:h-64"
+                        style="object-fit: contain !important"
+                    />
+                </div>
+            </section>
+
+            <div class="w-screen flex justify-center mb-32 sm:mb-20">
+                <div
+                    class="
+                        flex flex-col
+                        p-12
+                        w-1/3
+                        bg-green-100
+                        rounded-3xl
+                        lg:w-2/3
+                        sm:w-4/5 sm:p-8
+                    "
+                >
+                    <img src="spot.png" class="w-80 mb-6 sm:w-44
+                    center" alt="" />
+                    <p class="text-2xl leading-loose mb-6 sm:text-sm">
+                        I also have a great Spotify playlist, which gives me
+                        motivation in times of distress.
+                    </p>
+                    <a
+                        href="https://open.spotify.com/user/prakharkhurana04"
+                        class="
+                            px-16
+                            bg-green-700
+                            py-4
+                            text-white text-xl
+                            rounded-md
+                            hover:shadow-lg
+                            inline-block
+                            text-center
+                            sm:text-sm
+                        "
+                        target="_blank"
+                        >Check it Out</a
+                    >
+                </div>
+            </div>
+
+            <footer
+                class="w-screen bg-indigo-500 cont flex sm:flex-col"
+                style="border-radius: 30px 30px 0 0"
+            >
+                <div
+                    class="
+                        w-full
+                        flex
+                        py-20
+                        flex-nowrap
+                        lg:pl-0 lg:py-10
+                        sm:w-full
+                        justify-center
+                        sm:pb-10
+                    "
+                >
+                    <a
+                        href="https://www.instagram.com/sagar0.4/"
+                        class="
+                            text-5xl
+                            mx-4
+                            text-white
+                            lg:text-3xl lg:mx-3
+                            sm:mx-2
+                        "
+                        ><i class="fab fa-instagram"></i
+                    ></a>
+                    <a
+                        href="https://open.spotify.com/user/sagar.chethankumar?si=6a8e667f7f1e4ce8"
+                        class="
+                            text-5xl
+                            mx-4
+                            text-white
+                            lg:text-3xl lg:mx-3
+                            sm:mx-2
+                        "
+                        ><i class="fab fa-spotify"></i
+                    ></a>
+                    <a
+                        href="https://www.linkedin.com/in/sagar-chethan-kumar/"
+                        class="
+                            text-5xl
+                            mx-4
+                            text-white
+                            lg:text-3xl lg:mx-3
+                            sm:mx-2
+                        "
+                        ><i class="fab fa-linkedin"></i
+                    ></a>
+                    <a
+                        href="https://github.com/Sagar-CK"
+                        class="
+                            text-5xl
+                            mx-4
+                            text-white
+                            lg:text-3xl lg:mx-3
+                            sm:mx-2
+                        "
+                        ><i class="fab fa-github"></i
+                    ></a>
+                    <a
+                        href="https://twitter.com/prakharkhurana_"
+                        class="
+                            text-5xl
+                            mx-4
+                            text-white
+                            lg:text-3xl lg:mx-3
+                            sm:mx-2
+                        "
+                        ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a
+                        href="mailto:prakharkhuranapk@gmail.com"
+                        class="
+                            text-5xl
+                            mx-4
+                            text-white
+                            lg:text-3xl lg:mx-3
+                            sm:mx-2
+                        "
+                        ><i class="fas fa-envelope"></i
+                    ></a>
+                </div>
+                <!-- <div
+                    class="
+                        w-1/2
+                        pr-32
+                        pt-16
+                        lg:pr-0 lg:py-10
+                        sm:w-full sm:pl-12
+                    "
+                >
+                    <h2 class="text-lg text-white">
+                        Developed in assistance with
+                    </h2>
+                    <h1
+                        class="
+                            text-3xl text-white
+                            font-medium
+                            tracking-widest
+                            lg:text-2xl
+                        "
+                    >
+                        theVedanta, Augustya
+                    </h1>
+                </div> -->
+            </footer>
+        </main>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script>
+            $(".owl-carousel").owlCarousel({
+                autoPlay: 3000,
+                nav: true,
+                loop: true,
+                navText: [
+                    "<i class='fas fa-chevron-left'></i>",
+                    "<i class='fas fa-chevron-right'></i>",
+                ],
+                margin: 20,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                },
+            });
+        </script>
+        <script src="./main.js"></script>
+    </body>
+</html>
