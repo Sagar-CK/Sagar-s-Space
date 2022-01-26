@@ -7,6 +7,7 @@ const textArray = [
     "a Volunteer",
     "a Puzzler",
     "a Friend",
+    "a Nerd",
     "a Researcher",
 ];
 const typingDelay = 50;
