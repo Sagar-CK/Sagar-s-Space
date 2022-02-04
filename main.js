@@ -57,10 +57,10 @@ document.addEventListener("DOMContentLoaded", () => {
 for (let btn of document.querySelectorAll(".school-btn")) {
     btn.addEventListener("click", () => {
         document
-            .querySelector("button.text-indigo-700")
-            .classList.remove("text-indigo-700");
+            .querySelector("button.text-pink-500")
+            .classList.remove("text-pink-500");
 
-        btn.classList.add("text-indigo-700");
+        btn.classList.add("text-pink-500");
 
         for (let card of document.querySelectorAll(".school-card")) {
             card.classList.add("hidden");
