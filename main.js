@@ -6,7 +6,7 @@ const textArray = [
     "a Coder",
     "a Volunteer",
     "a Puzzler",
-    "a Friend",
+    "a Leader",
     "a Nerd",
     "a Researcher",
 ];
