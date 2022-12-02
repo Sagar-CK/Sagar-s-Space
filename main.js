@@ -4,11 +4,10 @@ const cursor = document.getElementById("cursor");
 const textArray = [
     "Sagar",
     "a Coder",
-    "a Volunteer",
     "a Puzzler",
     "a Leader",
     "a Nerd",
-    "a Researcher",
+    "a Activist",
 ];
 const typingDelay = 50;
 const eraseDelay = 50;
