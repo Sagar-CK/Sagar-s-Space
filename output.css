@@ -387,6 +387,7 @@ html {
 body {
   font-family: inherit;
   line-height: inherit;
+  overflow-x: hidden;
 }
 
 /**
